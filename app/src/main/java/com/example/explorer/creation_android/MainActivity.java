@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (providerList.contains(LocationManager.NETWORK_PROVIDER)) {
             provider = LocationManager.NETWORK_PROVIDER;
         } else {
-            Toast.makeText(this, "No location provider to user", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "No location provider to user Please check!", Toast.LENGTH_SHORT).show();
             return;
         }
 
